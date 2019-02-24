@@ -17,7 +17,7 @@ namespace Tests
         {
             using ( var mock = AutoMock.GetLoose())
             {
-                mock
+                
 
             }
 
