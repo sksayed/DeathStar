@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DeathStar
 {
-    class Raven : IBattleShip, IShip
+   public class Raven : IBattleShip, IShip
     {
         public List<IWeapon> Weapons { get; set; }
         public int Sheild { get; set; }
