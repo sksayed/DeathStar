@@ -6,6 +6,8 @@ namespace DeathStar
 {
    public class Raven : IBattleShip, IShip
     {
+         int b ;
+         // local repo dose not know about it 
         public List<IWeapon> Weapons { get; set; }
         public int Sheild { get; set; }
         public int Armor { get; set; }
